@@ -6,8 +6,8 @@ from cryptography.hazmat.backends import default_backend
 import os
 
 # AWS Configurations
-KMS_KEY_ARN = "arn:aws:kms:us-east-1:xxxxxxxxxxxxxxxxxxxx"
-S3_BUCKET = "eden-xxxxxxxxx-bucket"
+KMS_KEY_ARN = "arn:aws:kms:us-east-1:xxxxxxxxxxxxxxxxxxxx"  # Add Your KMS Key ARN
+S3_BUCKET = "eden-xxxxxxxxx-bucket" # Add Your S3 Bucket
 FILE_PATH = "data.txt"
 ENCRYPTED_FILE_PATH = "encrypted_data.txt"
 
